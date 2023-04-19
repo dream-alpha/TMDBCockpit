@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TMDB v6.0.1\n"
+"POT-Creation-Date: 2023-05-16 15:57+0200\n"
+"PO-Revision-Date: 2023-05-16 17:23+0200\n"
+"Last-Translator: Dario Croci <spaeleus@croci.org>\n"
+"Language-Team: Dario Croci <spaeleus@croci.org>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ../../../../../../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Version"
+msgstr "Versione"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "License"
+msgstr "Licenza"
+
+msgid "End"
+msgstr "Fine"
+
+msgid "Stop playback"
+msgstr "Stop playback"
+
+msgid "Skip forward"
+msgstr "Skip avanti"
+
+msgid "Skip backward"
+msgstr "Skip indietro"
+
+msgid "EPG Info"
+msgstr "Info EPG"
+
+msgid "Do you want to resume playback at position: %d:%02d:%02d?"
+msgstr "Riprendere la riproduzione dalla posizione %d:%02d:%02d?"
+
+msgid "Cancel"
+msgstr "Annullare"
+
+msgid "Save"
+msgstr "Salvare"
+
+msgid "Defaults"
+msgstr "Predefinito"
+
+msgid "Really close without saving settings?"
+msgstr "Chiudere senza salvare le impostazioni?"
+
+msgid "Setup"
+msgstr "Impostazioni"
+
+msgid "Loading default settings will overwrite all settings, really load them?"
+msgstr "Le impostazioni predefinite sovrascriveranno tutte quelle presenti. Eseguire?"
+
+msgid "Some changes require a GUI restart"
+msgstr "Alcune modifiche richiedono il riavvio della GUI"
+
+msgid "Restart GUI now?"
+msgstr "Riavviare la GUI ora?"
+
+msgid "Bookmarks"
+msgstr "Segnalibri"
+
+msgid "Select directory"
+msgstr "Selezionare directory"
+
+msgid "Path does not exist"
+msgstr "Percorso non presente"
+
+msgid "Close"
+msgstr "Chiudere"
+
+msgid "Hide"
+msgstr "Nascondere"
+
+msgid "Cancelling, please wait"
+msgstr "Annullamento in corso, attendere"
+
+msgid "Processing"
+msgstr "Elaborazione in corso"
+
+msgid "of"
+msgstr "di"
+
+msgid "Done"
+msgstr "Fatto"
+
+msgid "Cancelled"
+msgstr "Rimosso"
+
+msgid "Please wait"
+msgstr "Attendere"
+
+msgid "min"
+msgstr "min"
+
+msgid "TMDB Infos ..."
+msgstr "Info TMDB..."
+
+msgid "Various"
+msgstr "Varie"
+
+msgid "Seasons"
+msgstr "Stagioni"
+
+msgid "Episodes"
+msgstr "Episodi"
+
+msgid "Season"
+msgstr "Stagione"
+
+msgid "female"
+msgstr "Femminile"
+
+msgid "male"
+msgstr "Maschile"
+
+msgid "divers"
+msgstr "Diverso"
+
+msgid "None"
+msgstr "Nessuno"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "Language:"
+msgstr "Lingua:"
+
+msgid "Skip to movie details for single result:"
+msgstr "Mostrare dettagli film su riscontro singolo:"
+
+msgid "Yellow key for TMDB infos in EPGs:"
+msgstr "Tasto giallo per info TMDB in EPG:"
+
+msgid "Cover resolution:"
+msgstr "Risoluzione cover:"
+
+msgid "Backdrop resolution:"
+msgstr "Risoluzione sfondi:"
+
+msgid "Overview"
+msgstr "Panoramica"
+
+msgid "Exit"
+msgstr "Uscire"
+
+msgid "Details"
+msgstr "Dettagli"
+
+msgid "Edit search"
+msgstr "Modificare ricerca"
+
+msgid "more ..."
+msgstr "Altro ..."
+
+msgid "Show details"
+msgstr "Mostrare dettagli"
+
+msgid "Details down"
+msgstr "Dettagli giù"
+
+msgid "Details up"
+msgstr "Dettagli su"
+
+msgid "Current movies in cinemas"
+msgstr "Film attualmente nei cinema"
+
+msgid "No search string specified."
+msgstr "Stringa di ricerca non specificata."
+
+msgid "Looking up: %s ..."
+msgstr "Ricerca: %s..."
+
+msgid "page"
+msgstr "Pagina"
+
+msgid "No results for: %s"
+msgstr "Nessun risultato per: %s"
+
+msgid "Upcoming movies"
+msgstr "Film in arrivo"
+
+msgid "Popular movies"
+msgstr "Film popolari"
+
+msgid "Similar movies"
+msgstr "Film simili"
+
+msgid "Recommendations"
+msgstr "Raccomandazioni"
+
+msgid "Best rated movies"
+msgstr "Film più votati"
+
+msgid "Search for Movie:"
+msgstr "Ricerca film:"
+
+msgid "Movie Details"
+msgstr "Dettagli film"
+
+msgid "Genre:"
+msgstr "Genere:"
+
+msgid "Votes:"
+msgstr "Voti:"
+
+msgid "Runtime:"
+msgstr "Durata:"
+
+msgid "Year:"
+msgstr "Anno:"
+
+msgid "Countries:"
+msgstr "Nazioni:"
+
+msgid "Director:"
+msgstr "Regista:"
+
+msgid "Author:"
+msgstr "Autore:"
+
+msgid "Studio:"
+msgstr "Studio:"
+
+msgid "Crew"
+msgstr "Team"
+
+msgid "Selection up"
+msgstr "Selezione su"
+
+msgid "Selection down"
+msgstr "Selezione giù"
+
+msgid "Page up"
+msgstr "Pagina su"
+
+msgid "Page down"
+msgstr "Pagina giù"
+
+msgid "Search"
+msgstr "Cercare"
+
+msgid "Videos"
+msgstr "Video"
+
+msgid "Save movie description"
+msgstr "Salvare descrizione film"
+
+msgid "Delete movie EIT file"
+msgstr "Rimuovere il file EIT"
+
+msgid "Save movie cover"
+msgstr "Salvare cover film"
+
+msgid "Save movie backdrop"
+msgstr "Salvare sfondo film"
+
+msgid "File operation results:"
+msgstr "Risultati operazioni sui file:"
+
+msgid "Cover saved."
+msgstr "Cover salvata."
+
+msgid "No cover available"
+msgstr "Nessuna cover disponibile"
+
+msgid "Backdrop saved."
+msgstr "Sfondo salvato."
+
+msgid "No backdrop available"
+msgstr "Nessuno sfondo disponibile"
+
+msgid "Movie description saved."
+msgstr "Descrizione film salvata."
+
+msgid "No movie description available"
+msgstr "Nessuna descrizione disponibile"
+
+msgid "EIT file deleted."
+msgstr "File EIT rimosso."
+
+msgid "No EIT file available"
+msgstr "Nessun file EIT disponibile"
+
+msgid "No search provider registered."
+msgstr "Nessun provider di ricerca registrato."
+
+msgid "TMDB videos"
+msgstr "Video TMDB"
+
+msgid "Please select a video"
+msgstr "Selezionare un video"
+
+msgid "Person Details"
+msgstr "Dettagli persona"
+
+msgid "Popularity"
+msgstr "Popolarità"
+
+msgid "Known for:"
+msgstr "Noto per:"
+
+msgid "Movie"
+msgstr "Film"
+
+msgid "Series"
+msgstr "Serie"
+
+msgid "Person"
+msgstr "Persona"
+
+msgid "TMDBCockpit"
+msgstr "TMDBCockpit"
+
+msgid "Access TMDB movie infos"
+msgstr "Accesso a informazioni film TMDB"

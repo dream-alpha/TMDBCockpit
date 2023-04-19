@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<skin>
+	<xmlinc file="screen_ScreenMain"/>
+	<xmlinc file="screen_ScreenMovie"/>
+	<xmlinc file="screen_ScreenPeople"/>
+	<xmlinc file="screen_ScreenPerson"/>
+	<xmlinc file="screen_ScreenSeason"/>
+	<xmlinc file="screen_ScreenConfig"/>
+</skin>

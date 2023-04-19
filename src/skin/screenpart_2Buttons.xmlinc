@@ -1,0 +1,11 @@
+	<widget backgroundColor="#9f1313" font="Regular;30" foregroundColor="white" halign="center" name="key_red" position="10,5" shadowColor="black" shadowOffset="-2,-2" size="350,70" transparent="1" valign="center" zPosition="1"/>
+	<widget backgroundColor="#1f771f" font="Regular;30" foregroundColor="white" halign="center" name="key_green" position="360,5" shadowColor="black" shadowOffset="-2,-2" size="350,70" transparent="1" valign="center" zPosition="1"/>
+	<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="10,5" size="350,70"/>
+	<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="360,5" size="350,70"/>
+	<widget font="Regular;34" halign="right" position="1050,25" render="Label" size="120,40" source="global.CurrentTime">
+		<convert type="ClockToText">Default</convert>
+	</widget>
+	<widget font="Regular;34" halign="right" position="800,25" render="Label" size="240,40" source="global.CurrentTime">
+		<convert type="ClockToText">Date</convert>
+	</widget>
+	<eLabel backgroundColor="grey" position="10,80" size="1180,1"/>
