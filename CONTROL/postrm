@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ "$1" = "remove" ]; then
+	rm -rf /usr/lib/enigma2/python/Plugins/Extensions/tmdb > /dev/null 2>&1
+	echo "tmdb plugin removed successfully."
+else
+	find /usr/lib/enigma2/python/Plugins/Extensions/tmdb -type f -name "*.pyo" -exec rm -f {} \; > /dev/null 2>&1
+fi
+exit 0

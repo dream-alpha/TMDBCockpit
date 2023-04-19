@@ -1,0 +1,6 @@
+Description: tmdb
+Maintainer: dream-alpha
+Package: enigma2-plugin-extensions-tmdb
+Version: 6.7.5
+Architecture: all
+Depends: python-requests

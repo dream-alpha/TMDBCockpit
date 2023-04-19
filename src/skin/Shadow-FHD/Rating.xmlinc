@@ -1,0 +1,4 @@
+	<widget alphatest="blend" name="star" position="25,0" size="100,100" zPosition="0"/>
+	<widget alphatest="blend" name="fsklogo" position="195,15" size="100,100" zPosition="2"/>
+	<widget backgroundColor="#00ffba00" font="Regular;27" foregroundColor="black" halign="center" name="rating" position="0,40" size="150,25" transparent="1" zPosition="2"/>
+	<widget font="Regular;27" halign="center" name="votes_brackets" position="0,100" size="150,25" transparent="1" zPosition="2"/>

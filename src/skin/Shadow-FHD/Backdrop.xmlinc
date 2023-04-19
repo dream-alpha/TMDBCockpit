@@ -1,0 +1,2 @@
+	<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+	<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>

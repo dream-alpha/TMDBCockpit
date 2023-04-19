@@ -1,0 +1,4 @@
+	<eLabel backgroundColor="red" cornerDia="40,bottom" position="0,1075" size="800,19"/>
+	<eLabel backgroundColor="green" cornerDia="40,bottom" position="800,1075" size="800,19"/>
+	<widget font="Regular;36" halign="center" name="key_red" position="0,1000" render="Label" size="800,44" transparent="1"/>
+	<widget font="Regular;36" halign="center" name="key_green" position="800,1000" render="Label" size="800,44" transparent="1"/>

@@ -1,0 +1,16 @@
+	<screen name="ScreenPeople" position="center,147" size="2400,1240" title="TMDB - The Movie Database">
+		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="27,40" size="1800,53" transparent="1"/>
+		<widget font="Regular;40" itemHeight="53" name="list" position="27,120" scrollbarMode="showOnDemand" size="1667,960" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1727,120" size="640,960"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/backdrop.jpg" position="0,0" scale="1" size="2560,1440" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2400,1240" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="27,1120" size="400,93"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="427,1120" size="400,93"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="827,1120" size="400,93"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="1227,1120" size="400,93"/>
+		<widget backgroundColor="#9f1313" font="Regular;40" foregroundColor="white" halign="center" name="key_red" position="27,1120" shadowColor="black" shadowOffset="-2,-2" size="400,93" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;40" foregroundColor="white" halign="center" name="key_green" position="427,1120" shadowColor="black" shadowOffset="-2,-2" size="400,93" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;40" foregroundColor="white" halign="center" name="key_yellow" position="827,1120" shadowColor="black" shadowOffset="-2,-2" size="400,93" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;40" foregroundColor="white" halign="center" name="key_blue" position="1227,1120" shadowColor="black" shadowOffset="-2,-2" size="400,93" transparent="1" valign="center" zPosition="1"/>
+	</screen>

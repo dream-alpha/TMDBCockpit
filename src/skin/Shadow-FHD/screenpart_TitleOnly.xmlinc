@@ -1,0 +1,4 @@
+	<widget font="Bold;32" noWrap="1" position="25,30" render="Label" size="eval($screen_width-335),40" source="$source" transparent="1"/>
+	<widget font="Bold;30" halign="right" position="eval($screen_width-330),25" render="Label" size="300,40" source="global.CurrentTime" transparent="1" valign="center">
+		<convert type="ClockToText">Format:%a %d.%m. %H:%M</convert>
+	</widget>
