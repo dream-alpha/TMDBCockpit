@@ -1,6 +1,0 @@
-	<ePixmap gradient="transpBlack,transparent,vertical" position="0,0" size="2560,640" zPosition="-2"/>
-	<ePixmap gradient="transparent,gradient,vertical" position="0,800" size="2560,640" zPosition="-4"/>
-	<widget font="Bold;48" noWrap="1" position="40,30" render="Label" size="1800,54" source="Title" transparent="1"/>
-	<widget font="Bold;40" halign="right" position="2120,30" render="Label" size="400,40" source="global.CurrentTime" transparent="1">
-		<convert type="ClockToText">Format:%a %d.%m.  %H:%M</convert>
-	</widget>

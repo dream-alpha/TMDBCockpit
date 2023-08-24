@@ -1,4 +1,0 @@
-	<screen name="ScreenConfig" position="center,227" size="1600,1093" title="TMDBCockpit Setup">
-		<xmlinc file="2Buttons"/>
-		<widget enableWrapAround="1" name="config" position="13,120" scrollbarMode="showOnDemand" size="1573,960"/>
-	</screen>

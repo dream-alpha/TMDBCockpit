@@ -4,9 +4,9 @@
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="27,40" size="1800,53" transparent="1"/>
 		<widget font="Regular;40" itemHeight="53" name="list" position="27,120" scrollbarMode="showOnDemand" size="1667,960" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1727,120" size="640,960"/>
-		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/backdrop.jpg" position="0,0" scale="1" size="2400,1240" zPosition="-6"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/backdrop.jpg" position="0,0" scale="1" size="2560,1440" zPosition="-6"/>
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2400,1240" zPosition="-5"/>
-		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="2400,1240" zPosition="-2"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
 		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="27,1120" size="400,93"/>
 		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="427,1120" size="400,93"/>
 		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="827,1120" size="400,93"/>
@@ -103,10 +103,17 @@
 		<widget backgroundColor="#18188b" font="Regular;40" foregroundColor="white" halign="center" name="key_blue" position="1227,1120" shadowColor="black" shadowOffset="-2,-2" size="400,93" transparent="1" valign="center" zPosition="1"/>
 	</screen>
 	<screen name="ScreenConfig" position="center,227" size="1600,1093" title="TMDBCockpit Setup">
-		<eLabel backgroundColor="red" cornerDia="40,bottom" position="0,1075" size="800,19"/>
-		<eLabel backgroundColor="green" cornerDia="40,bottom" position="800,1075" size="800,19"/>
-		<widget font="Regular;36" halign="center" name="key_red" position="0,1000" render="Label" size="800,44" transparent="1"/>
-		<widget font="Regular;36" halign="center" name="key_green" position="800,1000" render="Label" size="800,44" transparent="1"/>
+		<widget backgroundColor="#9f1313" font="Regular;40" foregroundColor="white" halign="center" name="key_red" position="13,7" shadowColor="black" shadowOffset="-2,-2" size="467,93" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;40" foregroundColor="white" halign="center" name="key_green" position="480,7" shadowColor="black" shadowOffset="-2,-2" size="467,93" transparent="1" valign="center" zPosition="1"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,7" size="467,93"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="480,7" size="467,93"/>
+		<widget font="Regular;45" halign="right" position="1400,33" render="Label" size="160,53" source="global.CurrentTime">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Regular;45" halign="right" position="1067,33" render="Label" size="320,53" source="global.CurrentTime">
+			<convert type="ClockToText">Date</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="13,107" size="1573,1"/>
 		<widget enableWrapAround="1" name="config" position="13,120" scrollbarMode="showOnDemand" size="1573,960"/>
 	</screen>
 </skin>
