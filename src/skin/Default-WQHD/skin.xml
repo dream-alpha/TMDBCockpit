@@ -3,7 +3,7 @@
 	<screen name="ScreenMain" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2560,1440" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
-		<widget font="Bold;43" noWrap="1" position="33,40" render="Label" size="2113,57" source="Title" transparent="1"/>
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="2507,53" source="Title" transparent="1"/>
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
 		<widget font="Regular;40" itemHeight="53" name="list" position="40,200" scrollbarMode="showOnDemand" size="1800,1067" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
@@ -20,7 +20,7 @@
 	<screen name="ScreenMovie" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2560,1440" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
-		<widget font="Bold;43" noWrap="1" position="33,40" render="Label" size="2113,57" source="Title" transparent="1"/>
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="2507,53" source="Title" transparent="1"/>
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
 		<widget font="Regular;37" name="fulldescription" position="40,200" size="1133,1040" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
@@ -56,7 +56,7 @@
 	<screen name="ScreenPeople" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2560,1440" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
-		<widget font="Bold;43" noWrap="1" position="33,40" render="Label" size="2113,57" source="Title" transparent="1"/>
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="2507,53" source="Title" transparent="1"/>
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
 		<widget font="Regular;40" itemHeight="53" name="list" position="40,200" scrollbarMode="showOnDemand" size="1800,1067" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
@@ -72,7 +72,7 @@
 	<screen name="ScreenPerson" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2560,1440" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
-		<widget font="Bold;43" noWrap="1" position="33,40" render="Label" size="2113,57" source="Title" transparent="1"/>
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="2507,53" source="Title" transparent="1"/>
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
 		<widget font="Regular;37" name="fulldescription" position="40,200" size="1800,1067" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
@@ -88,7 +88,7 @@
 	<screen name="ScreenSeason" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="2560,1440" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="2560,1440" zPosition="-2"/>
-		<widget font="Bold;43" noWrap="1" position="33,40" render="Label" size="2113,57" source="Title" transparent="1"/>
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="2507,53" source="Title" transparent="1"/>
 		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
 		<widget font="Regular;40" itemHeight="53" name="list" position="40,200" scrollbarMode="showOnDemand" size="1333,533" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1560,200" size="960,960"/>

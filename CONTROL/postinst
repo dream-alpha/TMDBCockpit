@@ -1,4 +1,6 @@
 #!/bin/sh
 echo "Plugin successfully installed."
-echo "Please restart DreamOS now!"
+echo "Upgrading to TMDBCockpit now..."
+/usr/lib/enigma2/python/Plugins/Extensions/tmdb/tmdbcockpit.sh &
+echo "exit"
 exit 0
