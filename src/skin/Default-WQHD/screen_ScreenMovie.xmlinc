@@ -6,5 +6,5 @@
 		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
 		<xmlinc file="screenpart_Rating" position="1173,347"/>
 		<xmlinc file="screenpart_MovieInfo" position="1213,547"/>
-		<xmlinc file="screenpart_4ButtonsLarge" position="0,1370"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,1373" width="640"/>
 	</screen>

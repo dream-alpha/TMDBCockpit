@@ -1,2 +1,2 @@
-installdir = $(libdir)/enigma2/python/Plugins/Extensions/tmdb/tmdbsimple
+installdir = $(libdir)/enigma2/python/Plugins/Extensions/TMDBCockpit/tmdbsimple
 install_PYTHON = *.py

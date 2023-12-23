@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2023 by dream-alpha
+# Copyright (C) 2018-2024 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -152,9 +152,9 @@ class ScreenMovie(MoreOptions, Picture, Screen, HelpableScreen):
 			self.overview = ""
 		else:
 			self["searchinfo"].setText(self.movie)
-			path = "/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/star.png"
+			path = "/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/star.png"
 			self["star"].instance.setPixmap(LoadPixmap(path))
-			path = "/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/fsk_" + result["fsk"] + ".png"
+			path = "/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/fsk_" + result["fsk"] + ".png"
 			self["fsklogo"].instance.setPixmap(LoadPixmap(path))
 
 			for field in self.fields:

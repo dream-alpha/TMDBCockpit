@@ -5,7 +5,7 @@
 # the directory name of the plugin.
 #
 
-DOMAIN = tmdb
+DOMAIN = TMDBCockpit
 installdir = $(libdir)/enigma2/python/Plugins/Extensions/$(DOMAIN)
 #GETTEXT=./pygettext.py
 GETTEXT=xgettext

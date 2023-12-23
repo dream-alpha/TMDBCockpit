@@ -3,7 +3,7 @@
 		<widget font="Regular;30" itemHeight="40" name="list" position="20,90" scrollbarMode="showOnDemand" size="1000,400" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1055,90" size="720,720"/>
 		<widget font="Regular;28" name="overview" position="20,510" size="1000,340" transparent="1"/>
-		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/backdrop.jpg" position="0,0" scale="1" size="1920,1080" zPosition="-6"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1920,1080" zPosition="-6"/>
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1800,930" zPosition="-5"/>
 		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
 		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="20,840" size="300,70"/>

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 #
-# Copyright (C) 2018-2023 by dream-alpha
+# Copyright (C) 2018-2024 by dream-alpha
 #
 # In case of reuse of this source code please do not remove this copyright.
 #
@@ -26,7 +26,7 @@ from .FileUtils import readFile
 from .Debug import logger
 
 
-temp_dir = "/var/volatile/tmp/tmdb/"
+temp_dir = "/var/volatile/tmp/TMDBCockpit/"
 api_key_file = "/etc/enigma2/tmdb_key.txt"
 
 

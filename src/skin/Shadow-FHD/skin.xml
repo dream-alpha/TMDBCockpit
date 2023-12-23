@@ -3,7 +3,7 @@
 	<screen name="ScreenMain" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
 		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
 		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1350,800" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
@@ -15,12 +15,12 @@
 		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
 		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
 		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
-		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/tmdb/skin/images/tmdb.png" position="1475,920" size="350,30"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/tmdb.png" position="1475,920" size="350,30"/>
 	</screen>
 	<screen name="ScreenMovie" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
 		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
 		<widget font="Regular;28" name="fulldescription" position="30,150" size="850,780" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
@@ -56,7 +56,7 @@
 	<screen name="ScreenPeople" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
 		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
 		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1350,800" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
@@ -72,7 +72,7 @@
 	<screen name="ScreenPerson" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
 		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
 		<widget font="Regular;28" name="fulldescription" position="30,150" size="1350,800" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
@@ -88,7 +88,7 @@
 	<screen name="ScreenSeason" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
 		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
 		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
 		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
 		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1000,400" transparent="1"/>
 		<widget alphatest="blend" name="cover" position="1170,150" size="720,720"/>
@@ -106,7 +106,7 @@
 		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1200,486" zPosition="-1"/>
 		<eLabel backgroundColor="#131a1d" position="0,486" size="1200,108" zPosition="-1"/>
 		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,594" size="1200,486" zPosition="-1"/>
-		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1160,40" source="Title" transparent="1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1160,43" source="Title" transparent="1"/>
 		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="1160,500" transparent="1"/>
 		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="300,35" transparent="1"/>
 		<widget font="Regular;26" halign="center" name="key_green" position="300,1030" size="300,35" transparent="1"/>

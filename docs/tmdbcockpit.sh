@@ -4,5 +4,5 @@ apt-get update
 apt-get install -y apt-transport-https
 echo deb [trusted=yes] https://apt.fury.io/dream-alpha ./ > /etc/apt/sources.list.d/cockpit.list
 apt-get update
-apt-get install -y enigma2-plugin-extensions-tmdb
+apt-get install -y enigma2-plugin-extensions-tmdbcockpit
 systemctl restart enigma2
