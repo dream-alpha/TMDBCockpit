@@ -212,7 +212,7 @@ class ScreenMovie(MoreOptions, Picture, Screen, HelpableScreen):
 				vKey = video["key"]
 				vName = video["name"]
 				# sref ="8193:0:1:0:0:0:0:0:0:0:mp_yt%3a//lkL_84wQ9OY:VideoName"
-				vLink = "8193:0:1:0:0:0:0:0:0:0:yt%3a//"# fix the trailer url not need mp parser more
+				vLink = "8193:0:1:0:0:0:0:0:0:0:yt%3a//" # fix the trailer url not need mp parser more
 				videolist.append((str(vName), str(vLink + "%s:%s" % (vKey, vName))))
 
 			if len(videolist) > 1:
