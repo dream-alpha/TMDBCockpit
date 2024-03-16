@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen name="ScreenMain" position="center,73" size="1200,620" title="TMDB - The Movie Database">
+		<widget font="Regular;21" foregroundColor="#00fff000" name="searchinfo" position="13,20" size="900,27" transparent="1"/>
+		<widget font="Regular;20" itemHeight="27" name="list" position="13,60" scrollbarMode="showOnDemand" size="833,480" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="863,60" size="320,480"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1280,720" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1200,620" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1280,720" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="213,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="413,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="613,560" size="200,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="13,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="213,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;20" foregroundColor="white" halign="center" name="key_yellow" position="413,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;20" foregroundColor="white" halign="center" name="key_blue" position="613,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/tmdb.png" position="907,573" size="233,20"/>
+	</screen>
+	<screen name="ScreenMovie" position="center,73" size="1200,620" title="TMDB - The Movie Database">
+		<widget font="Regular;21" foregroundColor="#00fff000" name="searchinfo" position="13,20" size="900,27" transparent="1"/>
+		<widget font="Regular;19" name="fulldescription" position="13,60" size="567,480" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="967,133" size="213,320"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1280,720" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1200,620" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1280,720" zPosition="-2"/>
+		<widget backgroundColor="#00ffba00" font="Regular;18" foregroundColor="black" halign="center" name="rating" position="587,187" size="100,17" transparent="1" zPosition="2"/>
+		<widget font="Regular;18" halign="center" name="votes_brackets" position="587,227" size="100,17" transparent="1" zPosition="2"/>
+		<widget alphatest="blend" name="star" position="603,160" size="67,67" zPosition="0"/>
+		<widget alphatest="blend" name="fsklogo" position="717,170" size="67,67" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="year_txt" position="600,273" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="year" position="687,273" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="country_txt" position="600,293" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="country" position="687,293" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="runtime_txt" position="600,313" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="runtime" position="687,313" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="votes_txt" position="600,333" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="votes" position="687,333" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="director_txt" position="600,353" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="director" position="687,353" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="author_txt" position="600,373" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="author" position="687,373" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="genre_txt" position="600,393" size="67,20" transparent="1"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="genre" position="687,393" size="267,20" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="studio_txt" position="600,413" size="67,20" transparent="1"/>
+		<widget backgroundColor="#00303030" font="Regular;18" foregroundColor="#00ffffff" name="studio" position="687,413" size="267,20" transparent="1" zPosition="2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="213,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="413,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="613,560" size="200,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="13,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="213,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;20" foregroundColor="white" halign="center" name="key_yellow" position="413,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;20" foregroundColor="white" halign="center" name="key_blue" position="613,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+	</screen>
+	<screen name="ScreenPeople" position="center,73" size="1200,620" title="TMDB - The Movie Database">
+		<widget font="Regular;21" foregroundColor="#00fff000" name="searchinfo" position="13,20" size="900,27" transparent="1"/>
+		<widget font="Regular;20" itemHeight="27" name="list" position="13,60" scrollbarMode="showOnDemand" size="833,480" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="863,60" size="320,480"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1280,720" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1200,620" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1280,720" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="213,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="413,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="613,560" size="200,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="13,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="213,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;20" foregroundColor="white" halign="center" name="key_yellow" position="413,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;20" foregroundColor="white" halign="center" name="key_blue" position="613,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+	</screen>
+	<screen name="ScreenPerson" position="center,73" size="1200,620" title="TMDB - The Movie Database">
+		<widget font="Regular;21" foregroundColor="#00fff000" name="searchinfo" position="13,20" size="900,27" transparent="1"/>
+		<widget font="Regular;19" name="fulldescription" position="13,60" size="833,480" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="863,60" size="320,480"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1280,720" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1200,620" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1280,720" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="213,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="413,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="613,560" size="200,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="13,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="213,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;20" foregroundColor="white" halign="center" name="key_yellow" position="413,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;20" foregroundColor="white" halign="center" name="key_blue" position="613,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+	</screen>
+	<screen name="ScreenSeason" position="center,73" size="1200,620" title="TMDB - The Movie Database">
+		<widget font="Regular;21" foregroundColor="#00fff000" name="searchinfo" position="13,20" size="900,27" transparent="1"/>
+		<widget font="Regular;20" itemHeight="27" name="list" position="13,60" scrollbarMode="showOnDemand" size="667,267" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="703,60" size="480,480"/>
+		<widget font="Regular;19" name="overview" position="13,340" size="667,227" transparent="1"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1280,720" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1200,620" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1280,720" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="13,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="213,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="413,560" size="200,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="613,560" size="200,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="13,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="213,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;20" foregroundColor="white" halign="center" name="key_yellow" position="413,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;20" foregroundColor="white" halign="center" name="key_blue" position="613,560" shadowColor="black" shadowOffset="-2,-2" size="200,47" transparent="1" valign="center" zPosition="1"/>
+	</screen>
+	<screen name="ScreenConfig" position="center,113" size="800,547" title="TMDBCockpit Setup">
+		<widget backgroundColor="#9f1313" font="Regular;20" foregroundColor="white" halign="center" name="key_red" position="7,3" shadowColor="black" shadowOffset="-2,-2" size="233,47" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;20" foregroundColor="white" halign="center" name="key_green" position="240,3" shadowColor="black" shadowOffset="-2,-2" size="233,47" transparent="1" valign="center" zPosition="1"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="7,3" size="233,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="240,3" size="233,47"/>
+		<widget font="Regular;23" halign="right" position="700,17" render="Label" size="80,27" source="global.CurrentTime">
+			<convert type="ClockToText">Default</convert>
+		</widget>
+		<widget font="Regular;23" halign="right" position="533,17" render="Label" size="160,27" source="global.CurrentTime">
+			<convert type="ClockToText">Date</convert>
+		</widget>
+		<eLabel backgroundColor="grey" position="7,53" size="787,1"/>
+		<widget enableWrapAround="1" name="config" position="7,60" scrollbarMode="showOnDemand" size="787,480"/>
+	</screen>
+</skin>

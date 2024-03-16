@@ -1,0 +1,8 @@
+	<screen flags="wfNoFrame" name="ScreenConfig" position="0,0" size="1600,1440" title="TMDBCockpit Settings">
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget enableWrapAround="1" name="config" position="27,160" scrollbarMode="showOnDemand" size="eval($screen_width-53),667" transparent="1"/>
+		<xmlinc file="screenpart_1Button_name" name="key_red" position="0,eval($screen_height-67)" width="eval($screen_width/5)"/>
+		<xmlinc file="screenpart_1Button_name" name="key_green" position="eval($screen_width/5),eval($screen_height-67)" width="eval($screen_width/5)"/>
+		<xmlinc file="screenpart_4Buttons_icon" position="0,eval($screen_height-13)"/>
+	</screen>

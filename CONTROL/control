@@ -1,0 +1,8 @@
+Description: TMDBCockpit
+Maintainer: dream-alpha
+Package: enigma2-plugin-extensions-tmdbcockpit
+Version: 8.5.10
+Architecture: all
+Depends: python-requests
+Conflicts: enigma2-plugin-extensions-tmdb
+Replaces: enigma2-plugin-extensions-tmdb

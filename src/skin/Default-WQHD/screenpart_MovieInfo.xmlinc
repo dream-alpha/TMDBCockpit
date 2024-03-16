@@ -1,0 +1,16 @@
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="year_txt" position="0,0" size="160,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="year" position="173,0" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="country_txt" position="0,40" size="160,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="country" position="173,40" size="453,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="runtime_txt" position="0,80" size="160,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="runtime" position="173,80" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="votes_txt" position="0,120" size="173,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="votes" position="173,120" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="director_txt" position="0,160" size="160,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="director" position="173,160" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="author_txt" position="0,200" size="160,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="author" position="173,200" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="genre_txt" position="0,240" size="133,40" transparent="1"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="genre" position="173,240" size="480,40" transparent="1" zPosition="2"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="studio_txt" position="0,280" size="160,40" transparent="1"/>
+	<widget backgroundColor="#00303030" font="Regular;36" foregroundColor="#00ffffff" name="studio" position="173,280" size="480,40" transparent="1" zPosition="2"/>

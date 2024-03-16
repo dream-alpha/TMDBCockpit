@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen name="ScreenMain" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
+		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1350,800" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="480,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_yellow" position="960,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_blue" position="1440,1030" size="480,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/tmdb.png" position="1475,920" size="350,30"/>
+	</screen>
+	<screen name="ScreenMovie" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
+		<widget font="Regular;28" name="fulldescription" position="30,150" size="850,780" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
+		<widget alphatest="blend" name="star" position="905,260" size="100,100" zPosition="0"/>
+		<widget alphatest="blend" name="fsklogo" position="1075,275" size="100,100" zPosition="2"/>
+		<widget backgroundColor="#00ffba00" font="Regular;27" foregroundColor="black" halign="center" name="rating" position="880,300" size="150,25" transparent="1" zPosition="2"/>
+		<widget font="Regular;27" halign="center" name="votes_brackets" position="880,360" size="150,25" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="year_txt" position="910,410" size="120,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="year" position="1040,410" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="country_txt" position="910,440" size="120,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="country" position="1040,440" size="340,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="runtime_txt" position="910,470" size="120,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="runtime" position="1040,470" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="votes_txt" position="910,500" size="130,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="votes" position="1040,500" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="director_txt" position="910,530" size="120,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="director" position="1040,530" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="author_txt" position="910,560" size="120,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="author" position="1040,560" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="genre_txt" position="910,590" size="100,30" transparent="1"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="genre" position="1040,590" size="360,30" transparent="1" zPosition="2"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="studio_txt" position="910,620" size="120,30" transparent="1"/>
+		<widget backgroundColor="#00303030" font="Regular;27" foregroundColor="#00ffffff" name="studio" position="1040,620" size="360,30" transparent="1" zPosition="2"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="480,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_yellow" position="960,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_blue" position="1440,1030" size="480,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
+	</screen>
+	<screen name="ScreenPeople" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
+		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1350,800" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="480,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_yellow" position="960,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_blue" position="1440,1030" size="480,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
+	</screen>
+	<screen name="ScreenPerson" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
+		<widget font="Regular;28" name="fulldescription" position="30,150" size="1350,800" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1410,150" size="480,720"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="480,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_yellow" position="960,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_blue" position="1440,1030" size="480,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
+	</screen>
+	<screen name="ScreenSeason" position="0,0" size="1920,1080" title="TMDB - The Movie Database">
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1920,1080" zPosition="-5"/>
+		<ePixmap gradient="#70000000,#70000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1880,43" source="Title" transparent="1"/>
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="30,90" size="1860,40" transparent="1"/>
+		<widget font="Regular;30" itemHeight="40" name="list" position="30,150" scrollbarMode="showOnDemand" size="1000,400" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1170,150" size="720,720"/>
+		<widget font="Regular;28" name="overview" position="30,600" size="1000,400" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="480,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_yellow" position="960,1030" size="480,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_blue" position="1440,1030" size="480,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="480,10"/>
+		<eLabel backgroundColor="#669900" position="480,1070" size="480,10"/>
+		<eLabel backgroundColor="#e5b243" position="960,1070" size="480,10"/>
+		<eLabel backgroundColor="#3366cc" position="1440,1070" size="480,10"/>
+	</screen>
+	<screen flags="wfNoFrame" name="ScreenConfig" position="0,0" size="1200,1080" title="TMDBCockpit Settings">
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1200,486" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,486" size="1200,108" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,594" size="1200,486" zPosition="-1"/>
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1160,43" source="Title" transparent="1"/>
+		<widget enableWrapAround="1" name="config" position="20,120" scrollbarMode="showOnDemand" size="1160,500" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_red" position="0,1030" size="300,35" transparent="1"/>
+		<widget font="Regular;26" halign="center" name="key_green" position="300,1030" size="300,35" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="300,10"/>
+		<eLabel backgroundColor="#669900" position="300,1070" size="300,10"/>
+		<eLabel backgroundColor="#e5b243" position="600,1070" size="300,10"/>
+		<eLabel backgroundColor="#3366cc" position="900,1070" size="300,10"/>
+	</screen>
+</skin>

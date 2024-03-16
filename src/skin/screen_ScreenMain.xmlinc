@@ -1,0 +1,17 @@
+	<screen name="ScreenMain" position="center,110" size="1800,930" title="TMDB - The Movie Database">
+		<widget font="Regular;32" foregroundColor="#00fff000" name="searchinfo" position="20,30" size="1350,40" transparent="1"/>
+		<widget font="Regular;30" itemHeight="40" name="list" position="20,90" scrollbarMode="showOnDemand" size="1250,720" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1295,90" size="480,720"/>
+		<ePixmap alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/backdrop.jpg" position="0,0" scale="1" size="1920,1080" zPosition="-6"/>
+		<widget alphatest="blend" name="backdrop" position="0,0" scale="stretch" size="1800,930" zPosition="-5"/>
+		<ePixmap gradient="#50000000,#50000000,horizontal" position="0,0" size="1920,1080" zPosition="-2"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="20,840" size="300,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="320,840" size="300,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="620,840" size="300,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="920,840" size="300,70"/>
+		<widget backgroundColor="#9f1313" font="Regular;30" foregroundColor="white" halign="center" name="key_red" position="20,840" shadowColor="black" shadowOffset="-2,-2" size="300,70" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;30" foregroundColor="white" halign="center" name="key_green" position="320,840" shadowColor="black" shadowOffset="-2,-2" size="300,70" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;30" foregroundColor="white" halign="center" name="key_yellow" position="620,840" shadowColor="black" shadowOffset="-2,-2" size="300,70" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;30" foregroundColor="white" halign="center" name="key_blue" position="920,840" shadowColor="black" shadowOffset="-2,-2" size="300,70" transparent="1" valign="center" zPosition="1"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/tmdb.png" position="1360,860" size="350,30"/>
+	</screen>

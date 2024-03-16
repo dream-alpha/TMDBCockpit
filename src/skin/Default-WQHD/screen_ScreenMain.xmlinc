@@ -1,0 +1,9 @@
+	<screen name="ScreenMain" position="0,0" size="2560,1440" title="TMDB - The Movie Database">
+		<xmlinc file="screenpart_Backdrop"/>
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<widget font="Regular;43" foregroundColor="#00fff000" name="searchinfo" position="40,120" size="2480,53" transparent="1"/>
+		<widget font="Regular;40" itemHeight="53" name="list" position="40,200" scrollbarMode="showOnDemand" size="1800,1067" transparent="1"/>
+		<widget alphatest="blend" name="cover" position="1880,200" size="640,960"/>
+		<xmlinc file="screenpart_4Buttons_name" position="0,1373" width="640"/>
+		<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/tmdb.png" position="1967,1227" size="467,40"/>
+	</screen>
